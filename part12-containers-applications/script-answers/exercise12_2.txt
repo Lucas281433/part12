@@ -1,0 +1,10 @@
+Script started on 2024-03-06 07:32:54-0300
+]0;lucas@DESKTOP-H4O5PPR: /mnt/c/Cursos/UniversityOfHelsinki/2Semestre/Ejercicios/part12/part12-containers-applications[01;32mlucas@DESKTOP-H4O5PPR[00m:[01;34m/mnt/c/Cursos/UniversityOfHelsinki/2Semestre/Ejercicios/part12/part1[K22-containers-applications[00m$ docker run[K[K[Kcontainer run -it ubuntu
+[?2004h]0;root@3b91cca80d80: /root@3b91cca80d80:/# mkdir -p /usr/src/app
+[?2004l[?2004h]0;root@3b91cca80d80: /root@3b91cca80d80:/# touch /usr/src/app/index.js
+[?2004l[?2004h]0;root@3b91cca80d80: /root@3b91cca80d80:/# [Kexit
+[?2004lexit
+]0;lucas@DESKTOP-H4O5PPR: /mnt/c/Cursos/UniversityOfHelsinki/2Semestre/Ejercicios/part12/part12-containers-applications[01;32mlucas@DESKTOP-H4O5PPR[00m:[01;34m/mnt/c/Cursos/UniversityOfHelsinki/2Semestre/Ejercicios/part12/part122-containers-applications[00m$ exit
+exit
+
+Script done on 2024-03-06 07:36:05-0300

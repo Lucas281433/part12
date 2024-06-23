@@ -1,0 +1,55 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20240306065135
+Nombre de usuario: DESKTOP-H4O5PPR\lucas
+Usuario RunAs: DESKTOP-H4O5PPR\lucas
+Nombre de la configuración: 
+Máquina: DESKTOP-H4O5PPR (Microsoft Windows NT 10.0.19045.0)
+Aplicación host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\lucas\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Id. de proceso: 17264
+PSVersion: 5.1.19041.4046
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.4046
+BuildVersion: 10.0.19041.4046
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es .\script-answers\exercise12_2.txt
+]633;E;Start-Transcript -Path .\x5cscript-answers\x5cexercise12_2.txt;87d2ee3f-2b60-4651-b553-1f137a90b51f]633;D;0]633;A]633;P;Cwd=C:\x5cCursos\x5cUniversityOfHelsinki\x5c2Semestre\x5cEjercicios\x5cpart12\x5cpart12-containers-applicationsPS C:\Cursos\UniversityOfHelsinki\2Semestre\Ejercicios\part12\part12-containers-applications> ]633;B
+PS>docker container run ubuntu
+latest: Pulling from library/ubuntu
+bccd10f490ab: Pull complete
+Digest: sha256:77906da86b60585ce12215807090eb327e7386c8fafb5402369e421f44eff17e
+Status: Downloaded newer image for ubuntu:latest
+]633;E;docker container run ubuntu;87d2ee3f-2b60-4651-b553-1f137a90b51f]633;D;0]633;A]633;P;Cwd=C:\x5cCursos\x5cUniversityOfHelsinki\x5c2Semestre\x5cEjercicios\x5cpart12\x5cpart12-containers-applicationsPS C:\Cursos\UniversityOfHelsinki\2Semestre\Ejercicios\part12\part12-containers-applications> ]633;B
+PS>New-Item -ItemType Directory /usr/src/app
+
+
+    Directorio: C:\usr\src
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          6/3/2024     06:55                app
+
+
+]633;E;New-Item -ItemType Directory /usr/src/app;87d2ee3f-2b60-4651-b553-1f137a90b51f]633;D;0]633;A]633;P;Cwd=C:\x5cCursos\x5cUniversityOfHelsinki\x5c2Semestre\x5cEjercicios\x5cpart12\x5cpart12-containers-applicationsPS C:\Cursos\UniversityOfHelsinki\2Semestre\Ejercicios\part12\part12-containers-applications> ]633;B
+PS>New-Item -ItemType File /usr/src/app/index.js
+
+
+    Directorio: C:\usr\src\app
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          6/3/2024     06:57              0 index.js
+
+
+]633;E;New-Item -ItemType File /usr/src/app/index.js;87d2ee3f-2b60-4651-b553-1f137a90b51f]633;D;0]633;A]633;P;Cwd=C:\x5cCursos\x5cUniversityOfHelsinki\x5c2Semestre\x5cEjercicios\x5cpart12\x5cpart12-containers-applicationsPS C:\Cursos\UniversityOfHelsinki\2Semestre\Ejercicios\part12\part12-containers-applications> ]633;B
+PS>exit
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20240306070014
+**********************

@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  todo-app-frontend-dev:
+    image: todo-frontend-dev
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - 3000:3000
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+    container_name: todo-frontend-dev
